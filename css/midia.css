@@ -1,0 +1,223 @@
+@media (max-width:800px){
+    /* página de início */
+    #nav-top{
+        width: 58%;
+    }
+
+    #nav-top ul{
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .banner{
+        height: 23em;
+    }
+
+    .container-frase{
+        margin-top: 6px;
+        font-size: 1em;
+    }
+
+    #trailer-container{
+        height: 22em;
+    }
+
+    .trailer-content{
+        width: 90%;
+        gap: 2em;
+    }
+
+    #trailer-container video{
+        width: 50%;
+    }
+
+    #trailer-container .sinopse{
+        width: 50%;
+        font-size: .9em;
+    }
+
+    #container-cards{
+        margin: 60px 0;
+    }
+
+    /* página de avaliações */
+
+    #poster-background{
+        display: block;
+        width: 100%;
+        height: 200px;
+        background: url(../img/banner.jpg);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .poster{
+        display: none;
+    }
+
+    .comentarios-box{
+        padding: 20px 30px;
+    }
+
+    .comentarios-content p{
+        font-size: 12px;
+        width: 90%;
+        padding-left: 10px;
+    }
+
+    .comentarios-content img{
+        margin-left: 65px;
+    }
+
+    /* página de contato */
+
+    #send-message{
+        width: 46%;
+    }
+
+    #contatos-content{
+        width: 34%;
+    }
+
+}
+
+@media (max-width: 500px){ 
+    /* página de início */
+    header{
+        height: 1.7em;
+        padding: .8em 0;
+    }
+    #nav-top{
+        display: none;
+    }
+
+    #nav-bottom{
+        position: fixed;
+        bottom: 0px;
+        display: flex;
+        width: 100%;
+        height: 2em;
+        background: #520425;
+        z-index: 1000;
+    }
+
+    #nav-bottom ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    header img{
+        height:1.6em;
+    }
+
+    .banner{
+        width: 100%;
+        height: 28em;
+        background: url(../img/banner-cel.jpg);
+        background-size: cover;
+        background-position: 0% 20%;
+    }
+
+    .container-frase{
+        margin-top: 6px;
+        font-size: .8em;
+    }
+
+    .trailer-content{
+        display: block;
+    }
+
+    #trailer-container video{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #trailer-container .sinopse{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #trailer-container .sinopse p{
+        font-size: 1em;
+        line-height: 22px;
+    
+    }
+
+    #container-cards{
+        margin-top: 200px;
+    }
+
+    .card{
+        height: 300px;
+        width: 230px;
+    }
+
+    footer{
+        height: 6.5em;
+        margin-bottom: 1.7em;
+    }
+
+/* página de fotos */
+
+    #footer-content img{
+        height: 1.9em;
+    }
+
+
+    #fotos-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .fotos{
+        height: 120px;
+    }
+
+/* página de avaliações*/
+
+    #poster-comentario-container h2{
+        font-size: 1.2em;
+    }
+
+/* página de contato */
+
+    .contatos-box{
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        margin-top: -20px;
+    }
+
+    #send-message{
+        width: 70%;
+    }
+
+    .enviar-menssagem{
+        padding-left: 26px;
+    }
+
+    form{
+        padding-left: 26px;
+    }
+
+    .btn-enviar-msg{
+        margin-left: 26px;
+    }
+
+    #contatos-content{
+        width: 70%;
+    }
+
+    .icons{
+        padding-left: 12px;
+    }
+}
+
+@media (min-width: 1440px){
+/* página de fotos */
+    #fotos-container{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
